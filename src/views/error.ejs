@@ -1,0 +1,14 @@
+<div>
+  <p>BŁĄD</p>
+  <h2><%= title %></h2>
+
+  <div>
+    <p><%= message %></p>
+    <% if (hint) { %>
+    <br>
+    <p>Wskazówka: <code><%= hint %></code></p>
+    <% } %>
+  </div>
+
+  <a href="javascript:history.back()">WRÓĆ</a>
+</div>
